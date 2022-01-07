@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "ciworkflow-bundle",
+    "dockerOrganization": "lyd1acla1r3",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "ciWorkflow",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2Y4NGVkODkwOTU5ZjhhMGMxOTVjMjU5ODcxNGEyNmVjNzYxNDNhN2I5NTA0Y2Q3NjZmOTc0MDU4YzhlM2NkN2VkNzRlMDY5MTk4OTRiMzE1NjM3ZTFkMDk5YzZkMWQ0Nzg1YTgzNTJmYWJhMDUyMTdjZDhjMGYwZDM5NmEwZGE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1641534538873,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.3.2"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.3.2"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
